@@ -8,6 +8,9 @@
   font-style: normal;
 }
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+                
+
 .display-flex{
   display: flex;
   align-items: center;
@@ -30,6 +33,10 @@
   
 }
 
+nav ul li{
+  margin-right: 47px;
+}
+
 .nav-item{
   list-style: none;
   margin-right: 30px;
@@ -42,6 +49,8 @@
   font-weight: 64px;
   flex-direction: row;
   color: rgb(255, 255, 255);
+  border-radius: 39px;
+  border: 0px solid
 
 }
 
@@ -53,4 +62,60 @@
 
 .bg-light{
   background-color: rgb(17, 17, 17);
+}
+
+/*Banner related styles*/
+.banner-title{
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  text-align: left;
+  font-weight: 900;
+}
+
+.banner-content{
+  max-width: 520px;
+}
+
+.banner-pic{
+  width: 520px;
+}
+
+
+.banner-description{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-primary{
+  font-family: 'Miama', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  padding: 0px;
+}
+
+.btn-primary{
+  background-color:rgb(230, 83, 60) ;
+  border-radius: 42px;
+  border: none;
+  flex-direction: row;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 8px 20px 8px 20px;
+  font-size: 15px;
+}
+
+.btn-primary-app{
+  background-color: rgb(17, 17, 17) ;
+  border-radius: 42px;
+  border: 1px solid;
+  flex-direction: row;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 8px 20px 8px 20px;
+  font-size: 15px;
 }
