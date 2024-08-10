@@ -17,15 +17,16 @@
 .brand{
   position: static;
   color: rgb(230, 83, 60);
-  font-size: 36px;
+  font-size: 3rem;
   flex-direction: row;
+  font-weight: 700;
   
   
   
 }
 .navbar{
-  display: flex;
   justify-content: space-between;
+  align-items: center;
   
 }
 
@@ -40,6 +41,8 @@
   font-size: 18px;
   font-weight: 64px;
   flex-direction: row;
+  color: rgb(255, 255, 255);
+
 }
 
 
@@ -48,3 +51,6 @@
   margin: 0 auto;
 }
 
+.bg-light{
+  background-color: rgb(17, 17, 17);
+}
