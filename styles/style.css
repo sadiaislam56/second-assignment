@@ -7,3 +7,44 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.display-flex{
+  display: flex;
+  align-items: center;
+}
+
+/*nav section*/
+.brand{
+  position: static;
+  color: rgb(230, 83, 60);
+  font-size: 36px;
+  flex-direction: row;
+  
+  
+  
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 64px;
+  flex-direction: row;
+}
+
+
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
