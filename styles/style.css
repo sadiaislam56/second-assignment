@@ -121,3 +121,50 @@ nav ul li{
   font-size: 15px;
   margin-left: 20px;
 }
+
+/* Run Section Style */
+
+main{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.run-section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1160px;
+  height: 371px;
+  margin: 62px 0px;
+  background: rgb(34, 34, 34);
+  border-radius: 18px;
+}
+
+
+.run-pic {
+  width: 366px;
+  height: 312px;
+  left: 662px;
+  border-radius: 18px;
+}
+
+.text-contain{
+  font-size: 1.25rem;
+  color: rgb(255, 255, 255);
+}
+.run-descrition{
+  font-size: 1rem;
+  font-weight: 200;
+  color:rgba(255, 255, 255, 0.5)
+}
+.btn-primary-run{
+  background-color:rgb(230, 83, 60) ;
+  border-radius: 44px;
+  border: none;
+  flex-direction: row;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 16px 40px 16px 40px ;
+  font-size: 15px;
+  margin: 20px;
+}
