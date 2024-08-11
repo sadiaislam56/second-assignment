@@ -11,13 +11,13 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
                 
 
-.display-flex{
+/*.display-flex{
   display: flex;
   align-items: center;
 }
 
 /*nav section*/
-.brand{
+/*.brand{
   position: static;
   color: rgb(230, 83, 60);
   font-size: 3rem;
@@ -65,7 +65,7 @@ nav ul li{
 }
 
 /*Banner related styles*/
-.banner-title{
+/*.banner-title{
   color: rgb(255, 255, 255);
   font-size: 5rem;
   text-align: left;
@@ -173,7 +173,7 @@ main{
   font-size: 15px;
   margin: 20px;
 }
-/*responsive for small device*/
+/*responsive for small device run section*/
 
 @media screen and (max-width:576px){
   .run-section{
@@ -186,3 +186,65 @@ main{
     font-size: 1.3rem;
   }
 }
+
+/*habit section*/
+.title{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.description{
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+}
+.pic-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+.picture{
+  position: static;
+  width: 231px;
+  height: 274px;
+  flex: none;
+  margin: 0px 30px;
+}
+.habit-img{
+  width: 100%;
+  border-radius: 50%;
+}
+.habit-title{
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+.habit-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .9rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.3px;
+
+}
+.habit-container{
+  align-items: center;
+}
+.Habits{
+  background-color:black;
+  padding: 0 50px 100px 50px;
+}
+
+  /*responsive for small device habit section*/
+  @media screen and (max-width: 576px){
+    .pic-content{
+      grid-template-columns: repeat(1, 1fr);
+      gap: 80px;
+    }
+  }
