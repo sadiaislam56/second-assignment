@@ -134,8 +134,7 @@ main{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1160px;
-  height: 371px;
+  padding: 30px;
   margin: 62px 0px;
   background: rgb(34, 34, 34);
   border-radius: 18px;
@@ -173,4 +172,17 @@ main{
   padding: 16px 40px 16px 40px ;
   font-size: 15px;
   margin: 20px;
+}
+/*responsive for small device*/
+
+@media screen and (max-width:576px){
+  .run-section{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn-primary{
+    height: 60px;
+    width: 350px;
+    font-size: 1.3rem;
+  }
 }
