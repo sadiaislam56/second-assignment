@@ -77,7 +77,8 @@ nav ul li{
 }
 
 .banner-pic{
-  width: 520px;
+  width: 420px;
+  
 }
 
 
@@ -140,12 +141,17 @@ main{
   border-radius: 18px;
 }
 
+.run-image-div{
+  display: inline-grid;
+  overflow: hidden;
+  border-radius: 18px;
+}
 
-.run-pic {
+.run-image-div img{
   width: 366px;
   height: 312px;
-  left: 662px;
-  border-radius: 18px;
+  transform: scale(2.5);
+  transform-origin: 75% 30%;
 }
 
 .text-contain{
