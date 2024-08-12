@@ -248,3 +248,79 @@ main{
       gap: 80px;
     }
   }
+  /*footer section style*/
+  footer{
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(34, 34, 34);;
+  } 
+
+  .foot{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 30px;
+  }
+  .fitness-title{
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .f-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+
+  }
+  .f1-content{
+    width: 443px;
+    height: 176px;
+  }
+  .get-title{
+    color:rgb(255, 255, 255) ;
+    font-family: inter; 
+    font-size: 2rem; 
+    font-weight: 700;
+    text-align: right;
+    margin: 5px;
+  }
+  .foot-ul li a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5) ;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .foot-ul li {
+    font-size: 20px;
+    list-style: none;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  /*Border line*/
+
+  .line{
+    max-width: 1059px;
+    margin: 0 auto;
+  }
+  .footer-line{
+    max-width:1059px ;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /*line text*/
+
+.line-text{
+  color:rgba(255, 255, 255, 0.5) ;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 5px;
+}
