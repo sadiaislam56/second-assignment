@@ -593,3 +593,27 @@ th {
   font-weight: 600;
   text-align: center;
 }
+
+/*responsive for small device for BMI section*/
+@media screen and (max-width: 576px){
+ .bmi{
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+ } 
+ .form-div{
+  width: 360px;
+ }
+ .form-select1{
+  width: 46%;
+  height: 55%;
+ }
+ .form-select2{
+  width: 95px;
+  height: 55px;
+ }
+ .form-input-text{
+  width: 34%;
+  height: 35px;
+ }
+}
