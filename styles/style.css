@@ -10,23 +10,36 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
                 
-
-/*.display-flex{
+*{margin: 0;
+}
+.display-flex{
   display: flex;
   align-items: center;
 }
 
 /*nav section*/
-/*.brand{
+.brand{
   position: static;
   color: rgb(230, 83, 60);
   font-size: 3rem;
   flex-direction: row;
   font-weight: 700;
-  
-  
-  
 }
+
+.btn-home {
+  width: 92px;
+  height: 38px;
+  border-radius: 46px;
+  border: none;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
 .navbar{
   justify-content: space-between;
   align-items: center;
@@ -42,6 +55,9 @@ nav ul li{
   margin-right: 30px;
 
 }
+.ham-burger{
+  display: none;
+}
 
 .nav-link{
   text-decoration: none;
@@ -53,7 +69,9 @@ nav ul li{
   border: 0px solid
 
 }
-
+.navbar ul{
+  gap: 50px;
+}
 
 .navbar, .banner{
   max-width: 1440px;
@@ -64,12 +82,32 @@ nav ul li{
   background-color: rgb(17, 17, 17);
 }
 
+/*responsive for small device Nav-Bar*/
+@media screen and (max-width:576px) {
+  .navbar ul{
+    display: none;
+  }
+  .ham-burger {
+    display: block;
+    margin: 18px;
+  }
+    
+  .ham-burger i{
+    font-size: 30px;
+    color: white;
+  }
+
+}
+
+
 /*Banner related styles*/
-/*.banner-title{
+.banner-title{
   color: rgb(255, 255, 255);
   font-size: 5rem;
   text-align: left;
   font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 20px;
 }
 
 .banner-content{
@@ -84,12 +122,18 @@ nav ul li{
 
 .banner-description{
   color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
 
 .banner{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .text-primary{
@@ -100,27 +144,54 @@ nav ul li{
 }
 
 .btn-primary{
-  background-color:rgb(230, 83, 60) ;
+  background-color:rgb(230, 83, 60);
+  width: 224px;
+  height: 54px;
   border-radius: 42px;
   border: none;
-  flex-direction: row;
-  font-weight: bold;
   color: rgb(255, 255, 255);
-  padding: 16px 40px 16px 40px ;
-  font-size: 15px;
-  margin: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 22px;
+  margin-top: 5px;
 }
 
 .btn-primary-app{
   background-color: rgb(17, 17, 17) ;
+  width: 224px;
+  height: 54px;
   border-radius: 42px;
   border: 1px solid;
   flex-direction: row;
   font-weight: bold;
   color: rgb(255, 255, 255);
   padding: 16px 40px 16px 40px ;
-  font-size: 15px;
+  font-size: 1.2rem;
   margin-left: 20px;
+}
+/*responsive for small device Banner*/
+
+@media screen and (max-width:576px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 3.3rem;
+    padding: 10px;
+  }
+
+  .banner-description {
+    padding: 10px;
+  }
+
+  .btn-primary {
+    margin: 20px;
+  }
+
+  .btn-primary-app {
+    width: 344px;
+  }
 }
 
 /* Run Section Style */
@@ -134,7 +205,7 @@ main{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 30px;
+  padding: 20px;
   margin: 62px 0px;
   background: rgb(34, 34, 34);
   border-radius: 18px;
