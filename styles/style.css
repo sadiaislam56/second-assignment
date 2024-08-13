@@ -626,7 +626,6 @@ th {
 }
 .bmi-description {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -658,7 +657,7 @@ th {
 }
 
 .form-select2 {
-  width: 96%;
+  width: 91%;
   height: 55px;
   border-radius: 8px;
   background :rgba(255, 255, 255, 0.1);
@@ -694,11 +693,11 @@ th {
   width: 360px;
  }
  .form-select1{
-  width: 46%;
+  width: 45%;
   height: 55%;
  }
  .form-select2{
-  width: 95px;
+  width: 95%;
   height: 55px;
  }
  .form-input-text{
