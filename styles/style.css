@@ -10,15 +10,18 @@
 
 @import url('https://fonts.cdnfonts.com/css/miama');
                 
-*{margin: 0;
+
+*{
+  margin: 0;
 }
-.display-flex{
+.display-flex {
   display: flex;
   align-items: center;
 }
 
 /*nav section*/
-.brand{
+
+.brand {
   position: static;
   color: rgb(230, 83, 60);
   font-size: 3rem;
@@ -40,45 +43,54 @@
   letter-spacing: 0%;
 }
 
-.navbar{
+.navbar {
   justify-content: space-between;
   align-items: center;
-  
+  padding: 50px;
+
 }
 
-nav ul li{
+nav ul li {
   margin-right: 47px;
 }
 
-.nav-item{
+.nav-item {
   list-style: none;
-  margin-right: 30px;
+  margin-right: 30;
 
 }
+
 .ham-burger{
   display: none;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
   font-size: 18px;
   font-weight: 64px;
   flex-direction: row;
   color: rgb(255, 255, 255);
-  border-radius: 39px;
-  border: 0px solid
+  box-sizing: border-box;
+  
 
 }
+
 .navbar ul{
   gap: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  margin: 0,10px;
 }
 
-.navbar, .banner{
+
+.navbar,
+.banner {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.bg-light{
+.bg-light {
   background-color: rgb(17, 17, 17);
 }
 
@@ -101,26 +113,28 @@ nav ul li{
 
 
 /*Banner related styles*/
-.banner-title{
+
+.banner-title {
   color: rgb(255, 255, 255);
   font-size: 5rem;
-  text-align: left;
   font-weight: 900;
   line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
   margin-bottom: 20px;
 }
 
-.banner-content{
+.banner-content {
   max-width: 520px;
 }
 
-.banner-pic{
+.banner-pic {
   width: 420px;
-  
+
 }
 
 
-.banner-description{
+.banner-description {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
   font-weight: 400;
@@ -130,34 +144,35 @@ nav ul li{
 }
 
 
-.banner{
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.text-primary{
+.text-primary {
   font-family: 'Miama', sans-serif;
   font-weight: 300;
   font-style: italic;
   padding: 0px;
 }
 
-.btn-primary{
-  background-color:rgb(230, 83, 60);
+.btn-primary {
   width: 224px;
   height: 54px;
   border-radius: 42px;
   border: none;
+  background: rgb(230, 83, 60);
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 22px;
+  letter-spacing: 0px;
   margin-top: 5px;
 }
 
-.btn-primary-app{
-  background-color: rgb(17, 17, 17) ;
+.btn-primary-app {
+  background-color: rgb(17, 17, 17);
   width: 224px;
   height: 54px;
   border-radius: 42px;
@@ -165,10 +180,11 @@ nav ul li{
   flex-direction: row;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  padding: 16px 40px 16px 40px ;
+  padding: 16px 40px 16px 40px;
   font-size: 1.2rem;
   margin-left: 20px;
 }
+
 /*responsive for small device Banner*/
 
 @media screen and (max-width:576px) {
@@ -193,6 +209,7 @@ nav ul li{
     width: 344px;
   }
 }
+
 
 /* Run Section Style */
 
